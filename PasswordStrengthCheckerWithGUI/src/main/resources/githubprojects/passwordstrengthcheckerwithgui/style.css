@@ -1,0 +1,38 @@
+/* Custom button style */
+.button {
+    -fx-background-color: linear-gradient(#68a4c4, #3c5a79);
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#3c5a79, #68a4c4);
+}
+
+/* Custom text field style */
+.text-field {
+    -fx-background-color: #f0f0f0;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 5 10 5 10;
+}
+
+.text-field:focused {
+    -fx-border-color: #68a4c4;
+}
+
+/* Custom text area style */
+/*.text-area {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}*/
+
+.text-area:focused {
+    -fx-border-color: #68a4c4;
+}
